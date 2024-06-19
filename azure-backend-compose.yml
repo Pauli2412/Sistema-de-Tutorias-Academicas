@@ -1,0 +1,6 @@
+version: '3.5'
+services:
+  backend:
+    image: "andresmacas/pis_unl_backend:latest"
+    ports:
+      - 8080:8080

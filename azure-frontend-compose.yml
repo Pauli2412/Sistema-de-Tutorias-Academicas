@@ -1,0 +1,7 @@
+version: '3.5'
+
+services:
+  frontend:
+    image: "andresmacas/pis_unl_frontend:latest"
+    ports:
+      - 3000:3000
