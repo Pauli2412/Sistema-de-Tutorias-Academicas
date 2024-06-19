@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Quicksand&display=swap');
+.minimalist{
+  --black: #000;
+  --fs-20: 20px;
+  --fs-32: 32px;
+  --font-principal: 'Roboto', sans-serif;
+  font-family: var(--font-principal);
+  opacity: 0.4;
+}
+
+.tittle{
+  font-size: 42px;
+  --font-principal: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.minimalistsubtitle{
+  --black: #000;
+  --fs-20: 10px;
+  --fs-32: 22px;
+  font-size: 14px;
+  --font-principal: 'Quicksand', sans-serif;
+  font-family: var(--font-principal); 
+  opacity: 0.68;
+}
+
+
+
+.inputContainer span{
+  position: absolute;
+  left: 0;
+  padding: 15px 12px;
+  pointer-events: none;
+  --font-principal: 'Roboto', sans-serif;
+  font-family: var(--font-principal);
+  font-size: 10px;
+  transition: 0.5s;
+  color: #6d6f7a;
+  cursor: text;
+}
+
+.inputContainer spanDouble{
+  position: absolute;
+  left: 0;
+  padding: 15px 191px;
+  pointer-events: none;
+  --font-principal: 'Roboto', sans-serif;
+  font-family: var(--font-principal);
+  font-size: 10px;
+  transition: 0.5s;
+  color: #6d6f7a;
+  cursor: text;
+}
+
+.inputContainer{
+  position: relative;
+  margin-bottom: 10px;  
+}
+
+.input{
+  height: 48px;
+  margin-top: 10px;
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: auto;
+  background-color: #323645;
+  --font-principal: 'Quicksand', sans-serif;
+  font-family: var(--font-principal);
+  font-size: 12px;
+}
+
+.form{
+  padding-left: 85px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.containerLogo {
+  position: relative;
+}
+
+.icon{
+  position: absolute;
+  transform: translateY(-50%);
+  right: 14px;
+  top: 59%;
+  opacity: 0.7;
+  width: 20px;
+  height: 20px; 
+  background-size: cover;
+}
+
+.iconToggle{
+  position: absolute;
+  transform: translateY(-50%);
+  right: 14px;
+  top: 59%;
+  opacity: 0.7;
+  width: 20px;
+  height: 20px; 
+  cursor: pointer;
+  background-size: cover;
+}
+
+.iconDouble{
+  position: absolute;
+  transform: translateY(-50%);
+  right: 186px;
+  top: 59%;
+  opacity: 0.7;
+  width: 20px;
+  height: 20px; 
+  cursor: pointer;
+  background-size: cover;
+}
+
+.button{
+  margin-top: 30px;
+  --font-principal: 'Roboto', sans-serif;
+  font-family: var(--font-principal);
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: #1d90f5;
+  height: 48px;
+}

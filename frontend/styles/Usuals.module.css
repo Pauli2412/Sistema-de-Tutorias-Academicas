@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Quicksand&display=swap');
+
+.minimalist {
+    color: #fff;
+    --fs-20: 20px;
+    --fs-32: 32px;
+    --font-principal: 'Quicksand', sans-serif;
+    font-family: var(--font-principal);
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.tittle {
+    padding: 20px;
+    color: #fff;
+    font-size: 35px;
+    --font-principal: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.minimalistsubtitle {
+    --black: #000;
+    --fs-20: 10px;
+    --fs-32: 22px;
+    font-size: 14px;
+    --font-principal: 'Quicksand', sans-serif;
+    font-family: var(--font-principal);
+    opacity: 0.68;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerTarget {
+    position: absolute;
+    left: 25px;
+    border-radius: 10px;
+    background-color: rgb(19, 35, 64, 0.5);
+    max-width: 50%;
+}
+
+
+.button {
+    --font-principal: 'Roboto', sans-serif;
+    font-family: var(--font-principal);
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #ffffffe0; /*a6d5ff73*/
+    height: 48px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s; /* Transición de cambio de color en 0.5 segundos */
+}
+
+.button:hover {
+    background-color: #edededa5; /* a6d5ff87 Color de fondo del botón al pasar el ratón por encima */
+}
